@@ -1,0 +1,8 @@
+.box {
+    border: 1px solid red;
+    height: 700px;
+    width: 700px;
+    background-image: url("images/people.jpg");
+    /* filter: grayscale() contrast(100%); */
+    filter: hue-rotate(180deg);
+}

@@ -1,0 +1,22 @@
+/* .btn{
+    border: 2px solid black;
+    margin: 30px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: orangered;
+    background-color: white;
+    transition: all 1s;
+}
+
+.btn:hover{
+    background-color: orangered;
+    color: white;
+} */
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: olive;
+    transform: translateX(400px);
+}

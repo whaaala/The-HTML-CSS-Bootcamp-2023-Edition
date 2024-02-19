@@ -1,0 +1,126 @@
+.container {
+    width: 50%;
+    margin: 8rem auto;
+  }
+  
+  .grid {
+    display: grid;
+    /* grid-template-rows: 1fr .5fr .5fr .5fr .5fr; */
+    row-gap: 0.3rem;
+    column-gap: 0.3rem;
+    grid-template-areas:
+      "section-1 section-1 section-2 section-3"
+      "section-1 section-1 section-4 section-5"
+      "section-6 section-7 section-8 section-9"
+      "section-10 section-11 section-12 section-13";
+    grid-auto-rows: 11rem 5rem 5rem 5rem;
+  }
+  
+  .main-box {
+    grid-area: section-1;
+  }
+  
+  .main-side-box-1 {
+    grid-area: section-2;
+  }
+  
+  .main-side-box-2 {
+    grid-area: section-3;
+  }
+  
+  .side-box-3 {
+    grid-area: section-4;
+  }
+  .side-box-4 {
+    grid-area: section-5;
+  }
+  .side-box-5 {
+    grid-area: section-6;
+  }
+  .side-box-6 {
+    grid-area: section-7;
+  }
+  .side-box-7 {
+    grid-area: section-8;
+  }
+  .side-box-8 {
+    grid-area: section-9;
+  }
+  .side-box-9 {
+    grid-area: section-10;
+  }
+  .side-box-10 {
+    grid-area: section-11;
+  }
+  .side-box-11 {
+    grid-area: section-12;
+  }
+  .side-box-12 {
+    grid-area: section-13;
+  }
+  
+  .main-box {
+    background-color: black;
+  }
+  
+  .main-side-box-1 {
+    background-color: aqua;
+  }
+  
+  .main-side-box-2 {
+    background-color: violet;
+  }
+  
+  .side-box-3 {
+    background-color: blanchedalmond;
+  }
+  .side-box-4 {
+    background-color: blanchedalmond;
+  }
+  .side-box-5 {
+    background-color: blanchedalmond;
+  }
+  .side-box-6 {
+    background-color: blanchedalmond;
+  }
+  .side-box-7 {
+    background-color: blanchedalmond;
+  }
+  .side-box-8 {
+    background-color: blanchedalmond;
+  }
+  .side-box-9 {
+    background-color: blanchedalmond;
+  }
+  .side-box-10 {
+    background-color: blanchedalmond;
+  }
+  .side-box-11 {
+    background-color: blanchedalmond;
+  }
+  .side-box-12 {
+    background-color: blanchedalmond;
+  }
+  
+  @media only screen and (max-width: 440px) {
+    .container {
+      width: 100%;
+      margin: 1rem auto;
+    }
+    .grid {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+          "section-1 section-1"
+          "section-1 section-1"
+          "section-2 section-3"
+          "section-4 section-4"
+          "section-5 section-5";
+      grid-auto-rows: 11rem 6rem 13rem 8rem 8rem;
+    }
+  
+    .side-box-5, .side-box-6, .side-box-7, .side-box-8, .side-box-9, .side-box-10, .side-box-11, .side-box-12 {
+      display: none;
+    }
+  
+  }
+  

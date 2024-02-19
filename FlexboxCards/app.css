@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(cyan, purple);
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+
+h1{
+    margin: 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* justify-content: space-between; */
+
+}
+
+.card footer {
+    background-color:slateblue ;
+    color: white;
+    padding: 10px ;
+    text-align: center;
+    margin-top: auto;
+   
+}
